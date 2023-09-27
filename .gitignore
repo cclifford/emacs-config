@@ -1,0 +1,26 @@
+*
+
+!.gitignore
+!.gitmodules
+
+!init.el
+!extra
+!extra/*
+!notes
+!bookmarks
+!local
+!undo
+!backups
+!backups/.keep
+!local/.keep
+!undo/.keep
+
+
+# Backup files
+*~
+
+# Undo-tree save-files
+*.~undo-tree
+
+# Compiled
+*.elc

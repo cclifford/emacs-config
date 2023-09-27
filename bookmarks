@@ -1,0 +1,17 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-caldav-change-ts"
+ (filename . "~/Downloads/git/org-caldav/org-caldav.el")
+ (front-context-string . "(defun org-calda")
+ (rear-context-string . "\"LOCATION\"))))\n\n")
+ (position . 62163)
+ (last-modified 25405 45234 791881 386000))
+("init.el"
+ (filename . "~/.config/emacs/init.el")
+ (front-context-string . ";; -*- lexical-b")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 25403 50418 983786 295000))
+)
