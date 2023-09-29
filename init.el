@@ -18,12 +18,11 @@
 
 (use-package markdown-mode)
 
-(use-package conda
-  :init (setq conda-anaconda-home (expand-file-name "~/.local/share/miniconda/"))
-  :config (progn
-			(conda-env-initialize-interactive-shells)
-			(conda-env-initialize-eshell)
-			(conda-env-activate "drones")))
+(use-package micromamba)
+;  :init (setq micromamba-anaconda-home (getenv "MAMBA_ROOT_PREFIX"))
+;  :config (progn
+;			(micromamba-env-initialize-interactive-shells)
+;			(micromamba-env-initialize-eshell)))
 
 (use-package undo-tree
   :config (global-undo-tree-mode))
